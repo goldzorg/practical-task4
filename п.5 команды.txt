@@ -1,0 +1,10 @@
+установка:
+sudo apt install clamav clamav-daemon -y
+clamscan --version
+sudo stop clamav-freshclam
+sudo update-rc.d clamav-freshclam disable
+crontab –e
+
+
+0       4       *       *       1       clamscan --recursive --infected / --move=/tmp/clamscan --log=/var/log/clamscan.log
+*       *       *       */1     *       freshclam >/dev/null 2>&1

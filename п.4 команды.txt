@@ -1,0 +1,6 @@
+sudo apt update
+java -version
+sudo apt install default-jre -y
+java -version
+
+https://ubuntu.com/tutorials/install-jre#2-installing-openjdk-jre

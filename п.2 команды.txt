@@ -1,0 +1,4 @@
+sudo adduser skilluser
+sudo nano /etc/sudoers
+su skilluser
+sudo /usr/bin/systemctl status ssh

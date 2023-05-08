@@ -1,0 +1,3 @@
+sudo nano /etc/pam.d/common-password
+
+https://sysadmin78.ru/doku.php/how_to:how_to_set_password_policies_in_linux
